@@ -122,6 +122,13 @@ public class app {
             }
         };
 
+        limpaTela.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                textResultado.setText(" ");
+            }
+        });
     }
 
     private void createUIComponents() {
