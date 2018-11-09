@@ -14,7 +14,7 @@
     </properties>
     <border type="line" title="Calculadora"/>
     <children>
-      <component id="dd533" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="dd533" class="javax.swing.JTextField" binding="textResultado">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -43,7 +43,7 @@
           <text value="OFF"/>
         </properties>
       </component>
-      <component id="ab88f" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="ab88f" class="javax.swing.JButton" binding="backEpace">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -51,7 +51,7 @@
           <text value="&lt;-----"/>
         </properties>
       </component>
-      <component id="a2e12" class="javax.swing.JButton" binding="cButton" default-binding="true">
+      <component id="a2e12" class="javax.swing.JButton" binding="limpaTela">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -78,7 +78,7 @@
           <text value="9"/>
         </properties>
       </component>
-      <component id="dec2d" class="javax.swing.JButton" default-binding="true">
+      <component id="dec2d" class="javax.swing.JButton" binding="sub">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -112,7 +112,7 @@
           <text value="6"/>
         </properties>
       </component>
-      <component id="47856" class="javax.swing.JButton" default-binding="true">
+      <component id="47856" class="javax.swing.JButton" binding="mult">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -120,7 +120,7 @@
           <text value="*"/>
         </properties>
       </component>
-      <component id="7cfa9" class="javax.swing.JButton" default-binding="true">
+      <component id="7cfa9" class="javax.swing.JButton" binding="div">
         <constraints>
           <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -178,7 +178,7 @@
           <text value="."/>
         </properties>
       </component>
-      <component id="a83bc" class="javax.swing.JButton" binding="button3" default-binding="true">
+      <component id="a83bc" class="javax.swing.JButton" binding="sum">
         <constraints>
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
